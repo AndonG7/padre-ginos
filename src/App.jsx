@@ -1,4 +1,5 @@
 import { createRoot } from "react-dom/client";
+import PizzaOfTheDay from "./PizzaOfTheDay";
 import Order from "./Order";
 
 const App = () => {
@@ -6,8 +7,9 @@ const App = () => {
     <div>
       <h1>Padre Gino's - Order Now</h1>
       <Order />
-     </div>
-  )
+      <PizzaOfTheDay />
+    </div>
+  );
 };
 
 const container = document.getElementById("root");
